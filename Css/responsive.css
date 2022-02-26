@@ -1,0 +1,128 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    width: 80%;
+  }
+  .navbar {
+    display: none;
+  }
+  .a-middle {
+    display: none;
+  }
+  .a-right {
+    display: none;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-left {
+    padding-left: 130px;
+  }
+
+  .background-details h1 {
+    font-size: 60px;
+  }
+
+  .icon-row {
+    grid-template-columns: auto;
+    row-gap: 32px;
+  }
+  .product-row {
+    flex-direction: column;
+    transform: translateX(20px);
+  }
+  .product-middle-img {
+    width: 360px;
+    transform: translateX(-13px);
+    margin-bottom: 20px;
+  }
+  .all-products {
+    grid-template-columns: auto;
+    transform: translateX(70px);
+  }
+  .product-heading h6 {
+    padding: 0px 20px;
+  }
+  .sec-tex-2 {
+    flex-basis: 100%;
+    transform: translateX(-30px);
+  }
+  .sec-tex-2 p {
+    color: black;
+  }
+  .sec-tex-2 h2 {
+    color: black;
+  }
+  .sec-tex-2 h3 {
+    color: black;
+  }
+  .sec-tex-2 h3 span {
+    color: black;
+  }
+  .testimony-heading h1 {
+    font-size: 32px;
+  }
+  .testimony-heading {
+    padding: 0px 30px;
+  }
+  .logo {
+    flex-direction: column;
+    transform: translateX(90px);
+  }
+  .item {
+    padding: 0px 10px;
+  }
+  .test-row p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+    padding-right: 30px;
+    border-right: 2px solid #eee;
+    text-align: center;
+    position: relative;
+  }
+  .test-row p::after {
+    content: "";
+    height: 30px;
+    width: 2px;
+    background-color: rgb(16, 170, 16);
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    transform: translatey(-50%);
+  }
+  .subscribe-row {
+    flex-direction: column;
+    transform: translateY(-36px);
+    row-gap: 5px;
+  }
+  .box {
+    width: 300px;
+  }
+  .footer-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .social-icon {
+    margin-top: 30px;
+  }
+  center {
+    padding: 0px 20px;
+  }
+  .circle i {
+    line-height: 30px;
+    margin-left: 230px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    transform: translateY(-15px);
+    font-size: 14px;
+  }
+
+  /* CSS */
+}
