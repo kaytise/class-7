@@ -12,6 +12,7 @@ a {
 }
 html {
   scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /* above navigation section css starts */
 .above-navigation {
